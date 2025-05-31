@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <!-- <button onclick="MyFunction()">Click Me!</button> -->
+    <input id ="input1" type="text" name="title" value="">
+    <button id="button1" onclick="MyFunction()">Click Me!</button>
+    <p id="Func1">Mikasa Ackerman</p>
+
+    <script>
+        function MyFunction(){
+            var title = document.getElementById("input1").value;
+            document.getElementById("button1").innerHTML=title;
+        }
+    </script>
+</body>
+</html>

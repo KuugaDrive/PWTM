@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option</title>
+</head>
+<body>
+    <select onclick="MyFunction()" id="Selecet1">
+        <option value="">Who's?</option>
+        <option value="Tenma">Tenma</option>
+        <option value="Annie">Annie</option>
+        <option value="Anna">Anna</option>
+    </select>
+
+    <p id="Monster"></p>
+
+    <script>
+        function MyFunction(){
+            var Hito = document.getElementById("Selecet1").value;
+            document.getElementById("Monster").innerHTML="Hito :"+Hito;
+        }
+    </script>
+</body>
+</html>
