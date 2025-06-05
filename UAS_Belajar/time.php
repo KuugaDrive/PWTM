@@ -13,10 +13,12 @@
     <p id="demo"></p>  -->
 
 
-    <button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Nyalakan Lampu</button>
+    <!-- <button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Nyalakan Lampu</button>
 
     <img id="myImage" src="img/pic_bulboff.gif" style="width: 100px;" alt="">
 
-    <button onclick="documnet.getElementById('myImage').src='img/pic_bulboff.gif'">Matikan Lampu</button>
+    <button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Matikan Lampu</button> -->
+
+        
 </body>
 </html>
